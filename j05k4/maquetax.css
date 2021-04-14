@@ -1,25 +1,35 @@
 body{
-    background-color: rgb(116, 140, 160);
+    background-color: rgb(75, 75, 75);
     width: 900px;
     height: 700px;
     margin: 0 auto;
 }
 *{
-    margin: 0 ;padding: 0 ; box-sizing: border-box;font-size: 0;
+    margin: 0; padding: 0; box-sizing: border-box; font-size: 1;
 }
 header{
-    width: 900px;
+    width:673px;
     height: 150px;
+    
 }
+
 .caja{
-    width: 240px;
+    width: 224px;
     height: 150px;
-    background-color: rgb(231, 15, 7);
+    background-color: rgb(49, 49, 49);
     float: left;
+    border: 1px solid rgb(255, 255, 255);
 }
+
+    
 nav{
-    width: 750px;
-  /*  background-color:rgb(130, 243, 205);*/
+    width: 800px;
+    /*background-color:rgb(130, 243, 205);*/
+}
+img{
+    width: 100%;
+    height: calc(100% - 0px);/*<-- Yo puse 60px porque más o menos es lo que mide la altura del título, pero tú coloca un número de pixeles que se ajuste*/
+    object-fit: contain;
 }
 nav a{
     text-decoration: none;
@@ -28,48 +38,56 @@ nav a{
 }
 nav li{
     display: inline-block;
-    width: 12%;
-    padding: 0px 8px;
-    background-color: rgb(224, 62, 62);
-    border: 1px solid #000;
+    width: 13.6%;
+    padding: 10px 30px;
+    background-color: rgb(27, 27, 27);
+    border: 1px solid rgb(255, 255, 255);
+    
 }
+a.url {
+    color:rgb(255, 255, 255);
+}
+
+
+
 footer a{
     text-decoration: none;
     color: inherit;
     font-size: 12px;
+    color:rgb(255, 255, 255);
 }
 footer li{
     display: inline-block;
-    width: 16%;
-    padding: 0px 8px;
-    background-color: rgb(224, 62, 62);
-    border: 1px solid #000;
+    width: 14.6%;
+    padding: 10px 30px;
+    background-color: rgb(27, 27, 27);
+    border: 1px solid rgb(255, 255, 255);
+}
+footer.ul {
+    color:rgb(255, 255, 255);
 }
 main{
-    width: 900px;
+    width: 673px;
     height: 500px;
 }
 #sec1{
     width: 200px;
     height: 500px;
-    background-color: chocolate;
+    background-color: transparent;
     float: left;
 }
-
+article.art{
+    border: 1px solid rgb(255, 255, 255);
+}
 .art{
     width: 200px;
     height: 250px;
-    background-color: rgb(137, 238, 199);
-    border: 1px solid #000;
+    background-color: rgb(49, 49, 49);
 }
 #sec2{
-    width: 520px;
+    width: 472px;
     height: 500px;
-    background-color: rgb(137, 238, 199);
+    background-color: rgb(136, 136, 136);
     float: left;
-}
-img{
-    width: 100%;
-    height: calc(100% - 0px);
-    object-fit: contain;
+    border: 1px solid rgb(255, 255, 255);
 }
